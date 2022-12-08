@@ -14,7 +14,7 @@ public class Main {
 //        Khởi tạo 1 đối tượng chrome driver
 //        WebDriver driver = new ChromeDriver();
 //        WebDriver driver = new FirefoxDriver();
-        WebDriver driver = new EdgeDriver();
+        WebDriver driver = new ChromeDriver();
 //        Điều hướng đến trang google.com
         driver.get("https://google.com");
         driver.manage().window().maximize();
