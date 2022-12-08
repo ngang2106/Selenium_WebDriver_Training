@@ -16,6 +16,7 @@ public class Main {
 //        WebDriver driver = new FirefoxDriver();
         WebDriver driver = new ChromeDriver();
         System.out.println("This is new update for me");
+        System.out.println("Checkout to create a new branch");
 //        Điều hướng đến trang google.com
         driver.get("https://google.com");
         driver.manage().window().maximize();
