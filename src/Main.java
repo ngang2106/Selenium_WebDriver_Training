@@ -15,6 +15,7 @@ public class Main {
 //        WebDriver driver = new ChromeDriver();
 //        WebDriver driver = new FirefoxDriver();
         WebDriver driver = new ChromeDriver();
+        System.out.println("This is new update for me");
 //        Điều hướng đến trang google.com
         driver.get("https://google.com");
         driver.manage().window().maximize();
